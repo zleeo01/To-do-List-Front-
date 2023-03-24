@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minha To Do List</title>
+	<link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+        </style>
+</head>
+<body>
+    <main>
+	<h1>Minha To Do List</h1>
+    <div id="container">
+	<form id="todo-form">
+		<label for="novaTarefa">Nova Tarefa:</label>
+		<input type="text" id="novaTarefa" name="novaTarefa"  placeholder="Digite sua tarefa">
+		<button type="submit" id="enviar" onclick="Enviar();" value="Enviar" >Adicionar Tarefa</button>
+        
+	</form>
+
+	<ul id="listaTarefas">
+		<!-- A lista de tarefas será adicionada aqui -->
+	</ul>
+    </div>
+</main>
+	<script src="script.js"></script>
+</body>
+</html>
